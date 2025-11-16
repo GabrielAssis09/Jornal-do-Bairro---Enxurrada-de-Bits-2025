@@ -1,0 +1,7 @@
+titulo = rgb(41, 32, 21)
+subtitulo = rgb(41, 32, 21)
+borda do cabeçalho = rgb(71, 55, 36)
+fundo = rgb(204, 196, 186)
+letras das noticias = rgb(27, 21, 14)
+fundo das noticias = rgb(110, 93, 71)
+fundo das noticias sobre mouse = rgb(133, 113, 86)
