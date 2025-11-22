@@ -11,7 +11,6 @@ excursaofunec.onclick = function () {
     balaoexcursaofunec.style.display = "block";
     fundoborradoEF.style.display = "block";
     document.body.style.overflow = 'hidden';
-    // centraliza o balão na tela
     balaoexcursaofunec.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 }
@@ -37,7 +36,6 @@ ej.onclick = function () {
     balaoej.style.display = "block";
     fundoborradoEJ.style.display = "block";
     document.body.style.overflow = 'hidden';
-    // centraliza o balão na tela
     balaoej.scrollIntoView({ behavior: "smooth", block: "center" });
   }
 }

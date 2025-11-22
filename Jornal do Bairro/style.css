@@ -73,13 +73,15 @@ main{
     color: rgb(27, 21, 14);
     display: flex;
     align-items: flex-start;
-    gap: 35px;
+    gap: 42px;
     padding: 15px;
     float: left;
-    background-color: rgb(110, 93, 71);
+    background-color: rgb(204, 196, 186);
     border-radius: 10px;
-    text-align: left;
-    border: none;
+    text-align: justify;
+    border: solid;
+    border-color: rgba(71, 55, 36, 0.637);
+    border-width: 1px;
     font-size: large;
 }
 .textoexcursao h4{
@@ -99,7 +101,7 @@ main{
     border-bottom-right-radius: 10px;
 }
 .ExcursaoFunecdiv:hover{
-    background-color: rgb(133, 113, 86);
+    background-color: rgb(165, 152, 137);
     cursor: pointer;
 }
 .balaoexcursaofunec{
@@ -109,7 +111,7 @@ main{
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(110, 93, 71);
+    background-color: rgb(204, 196, 186);
     color: rgb(27, 21, 14);
     padding: 20px;
     border-radius: 12px;
@@ -125,7 +127,7 @@ main{
 }
 .excursaofunecimgdiv{
     border: solid;
-    border-color: rgb(71, 55, 36);
+    border-color: rgba(71, 55, 36, 0.637);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -167,13 +169,15 @@ main{
     color: rgb(27, 21, 14);
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    gap:150px;
     padding: 15px;
     float: left;
-    background-color: rgb(110, 93, 71);
+    background-color: rgb(204, 196, 186);
     border-radius: 10px;
     text-align: left;
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(71, 55, 36, 0.637);
     font-size: large;
 }
 .textoej h4{
@@ -193,7 +197,7 @@ main{
     border-bottom-right-radius: 10px;
 }
 .Ejdiv:hover{
-    background-color: rgb(133, 113, 86);
+    background-color: rgb(165, 152, 137);
     cursor: pointer;
 }
 .balaoej{
@@ -203,11 +207,13 @@ main{
     top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(110, 93, 71);
+    background-color: rgb(204, 196, 186);
     color: rgb(27, 21, 14);
     padding: 20px;
+    border-style: solid;
     border-radius: 12px;
     border-width: 1px;
+    border-color: rgba(71, 55, 36, 0.637);
     display: none;
     box-shadow: 0 4px 10px rgba(0,0,0,0.5);
     z-index: 20;
@@ -223,7 +229,7 @@ main{
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     border-style: solid;
-    border-color: rgb(71, 55, 36);
+    border-color: rgba(71, 55, 36, 0.637);
 }
 .colunadireita{
     display: flex;
@@ -239,10 +245,12 @@ main{
     gap: 25px;
     padding: 15px;
     float: left;
-    background-color: rgb(110, 93, 71);
+    background-color: rgb(204, 196, 186);
     border-radius: 10px;
     text-align: left;
-    border: none;
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(71, 55, 36, 0.637);
     font-size: large;
 }
 .voleidiv h3{
@@ -256,13 +264,14 @@ main{
     gap: 200px;
     padding-left: 2%;
     padding-right: 2%;
-    text-align: center;
+    text-align: justify;
 }
 .coluna-esquerda, .coluna-direita{
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: left;
 }
 iframe {
     max-width: 100%;
